@@ -293,17 +293,14 @@
                             <h3 class="card-title">Заполните форму</h3>
                             <form>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Имя"
+                                    <input name="name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Имя"
                                            aria-describedby="emailHelp">
                                 </div>
                                 <div class="mb-3">
-                                    <input type="email" placeholder="email" class="form-control"
+                                    <input name="email" type="email" placeholder="email" class="form-control"
                                            id="exampleInputPassword1">
                                 </div>
-                                <div class="mb-3">
-                                    <textarea class="form-control" placeholder="Сообщение"
-                                              id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
+
                                 <button type="submit" class="btn btn-primary form-control">Отправить</button>
                             </form>
                         </div>
@@ -323,7 +320,8 @@
                     data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
                 Как доставить?
             </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3"
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#multiCollapseExample3"
                     aria-expanded="false" aria-controls="multiCollapseExample3">Какая гарантия?
             </button>
         </p>
